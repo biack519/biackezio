@@ -1,0 +1,12 @@
+		{
+			"enable": true,
+			"name": "steam社区去跳转",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/steamcommunity\\.com\\/linkfilter\\/\\?url=(.*)$",
+			"exclude": "",
+			"group": "重定向",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		}
