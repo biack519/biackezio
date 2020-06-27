@@ -1,4 +1,6 @@
 		{
+	"request": [
+		{
 			"enable": true,
 			"name": "steam社区去跳转",
 			"ruleType": "redirect",
@@ -9,4 +11,6 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "$1"
+		}
+		]
 		}
