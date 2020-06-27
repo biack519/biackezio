@@ -1,0 +1,16 @@
+{
+	"request": [
+		{
+			"enable": true,
+			"name": "STCN to keylol",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^http(s?)://([^\.]*?\.?)steamcn\.com(.*)",
+			"exclude": "",
+			"group": "重定向",
+			"isFunction": false,
+			"action": "redirect",
+			"to": " https://$2keylol.com$3"
+		}
+		]
+		}
